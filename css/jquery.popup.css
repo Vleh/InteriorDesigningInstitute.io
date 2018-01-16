@@ -1,0 +1,132 @@
+.popup {
+  position:fixed; z-index:10000000; top:60px; left:50%;
+  width:340px; height:345px; background:#fff;
+    -moz-box-shadow:4px 4px 30px #130507;
+    -webkit-box-shadow:4px 4px 30px #130507;
+  box-shadow:4px 4px 30px #130507;
+    -moz-transition:top 800ms;
+    -o-transition:top 800ms;
+    -webkit-transition:top 800ms;
+  transition:top 800ms;
+}
+  .p_content { width:100%; text-align:center; font-size:23px; padding:0px 24px 0; }
+  .p_anch {
+    float:left; position:relative; z-index:1; width:100%;
+    margin:80px 0 0 0; text-align:center; font-size:18px;
+  }
+  .p_anch a { color:#000; }
+  .p_anch a:hover { text-decoration:none; }
+  .p_anch_bottom { margin:1500px 0 0 0; padding:0 0 50px 0; }
+  .p_close {
+    float:right; width:15px; height:14px; margin:11px 10px 0 0;
+    background:url(../images/popup_close.png);
+  }
+  .p_body {
+    background:#000; left:0; top:0; position:fixed; width:100%; height:100%; opacity:0.7;
+      -moz-transition:opacity 800ms;
+      -o-transition:opacity 800ms;
+      -webkit-transition:opacity 800ms;
+    transition:opacity 800ms; z-index:100000;
+  }
+
+
+/* js стили — декларативно */
+.js__popup {}
+  .js__p_start {}
+  .js__p_close {}
+  .js__p_body {}
+  .js__slide_top { height:0; overflow:hidden; top:0; }
+  .js__fadeout { height:0; overflow:hidden; opacity:0; }
+
+
+.github {
+  position:fixed; top:0; right:0;
+  width:99px; height:99px; background:url(../img/github.html);
+}
+
+/*---------------------------------------------------------form-----------------------------------------------------------------------------*/
+
+.form_box {
+    margin-top: 4px;
+}
+
+.form_box h3 {
+color: #e38b25 !important;
+    font: 100 24px "Oswald",sans-serif !important;
+    margin: 0 !important;
+    padding: 7px 0 10px;
+    text-align: left;
+}
+
+.form_box input, .form_box textarea {
+background: #1eaace none repeat scroll 0 0;
+    border: medium none;
+    color: #000 !important;
+    font-size: 14px;
+    margin: 0 0 3px 0px !important;
+    padding: 8px 28px;
+    text-shadow: none !important;
+    width: 100%;
+}
+
+.form_box select {
+    background: #560a69 none repeat scroll 0 0;
+    border: medium none;
+    color: #fff !important;
+    font: 100 14px "Oswald",sans-serif !important;
+    margin: 0 0 3px 0px !important;
+    padding: 8px 28px;
+    width: 100%;
+}
+.form_box textarea {
+    font-family: "Oswald",sans-serif;
+    font-size: 14px;
+    margin-bottom: 0;
+    min-height: 70px;
+    padding: 3px 28px;
+    width: 100%;
+}
+.form_box .btn {
+background: #560a69 none repeat scroll 0 0;
+    border: medium none;
+    box-shadow: none;
+    color: #fff;
+    font-family: "Oswald",sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    height: auto;
+    border-radius: 0px;
+    margin-top: 10px;
+    padding: 9px 12px;
+    width: 104px;
+    float: left;
+}
+.form_box .btn:hover {
+    background: rgba(0, 0, 0, 0) -moz-linear-gradient(center top , #ffc24b 0%, #ff8328 100%) repeat scroll 0 0;
+    color: #fff;
+}
+
+/*---------------------------------------------------------form-----------------------------------------------------------------------------*/	
+
+
+/*-----------ENQUIRY-POP-UP-------------------------*/
+#catalogue {position: fixed;top: 25%;z-index: 99999;right: 10px;  width:135px;}
+#catalogue .fa{ font-size:40px;}
+#catalogue #btn { padding: 10px 10px; background:#04727D; border-radius:50% !important; height:135px !important;width:135px; border: none; box-shadow: -1px 0px 3px 0px RGBA(0, 0, 0, 0.43);font-size:22px; color: #fff !important; font-family:"Oswald",sans-serif; line-height:30px;}
+.black { position: fixed; width: 100%; height: 100%;z-index: 99999; background: RGBA(0, 0, 0, 0.61);}
+#cat {background-color: #fff;width: 300px;margin: 0 auto;position: absolute;top: 30%;left: calc(50% - 150px);padding:30px 20px;box-shadow: 0px 0px 10px 1px #000;
+	border-radius: 3px;box-sizing: padding-box;}
+#cl {cursor: pointer; position: absolute;right: -10px;top: -10px;background-color: #d31e25;padding: 5px;border-radius: 17px;width: 33px;text-align: center;
+    font-weight: bold;/*box-shadow: 0px 0px 5px 1px #000;*/color: #fff;}
+#cat a {width: 100%;float: left;text-align: center;line-height: 30px;background-color: #E3E3E3;color: #d31e25 !important;}
+#cat a:hover {background-color: #000;color:#fff !important;}
+/*---------------------------------------*/
+#cat h3 {
+    color: #fff !important;
+    font: 100 20px "Oswald",sans-serif !important;
+    margin: 0 !important;
+    padding: 7px 0 7px; background:#D31E25; text-align:center;
+}
+#cat h3 span{
+    font: 100 18px "Oswald",sans-serif !important; color:#fff !important;
+}
